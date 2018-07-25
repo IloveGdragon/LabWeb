@@ -1,0 +1,17 @@
+#bg {
+  z-index: -99;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.HCon {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  height: 80px;
+  line-height: 80px;
+  font-size: 4em;
+}
