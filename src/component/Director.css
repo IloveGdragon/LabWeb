@@ -1,0 +1,27 @@
+.ant-collapse {
+  width: 70%;
+  margin: 0 15% !important;
+}
+
+.ant-collapse-header {
+  font-size: 1.5em;
+}
+
+.Dir_Con {
+  text-indent: 1em;
+  font-size: 15px;
+  color: #767171;
+}
+
+.Dir_Img {
+  display: flex;
+  padding: 0 30px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Dir_Img img {
+  width: 30%;
+  height: 250px;
+}

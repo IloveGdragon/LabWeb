@@ -1,18 +1,14 @@
 import React from 'react';
 import './Works.css';
+import SubTitle from './SubTitle';
+
 
 class Works extends React.Component {
-  constructor(props){
-    super(props);
-
-  }
 
   render(){
     return (
-      <section style={{height: this.props.winHeight}}>
-        <span>
-          作品其實有很多啦！
-        </span>
+      <section id="Works" style={{height: this.props.winHeight,minHeight: "800px"}}>
+        <SubTitle subTit="What We Did" />
       </section>
     )
   }

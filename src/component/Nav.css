@@ -1,29 +1,45 @@
-nav {
+.nav {
   position: fixed;
-  margin: 25px 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 100px ;
   width: 100%;
-  font-size: 2em;
+  font-size: 35px;
   color: #fff;
   z-index: 999;
+  height: 100px;
+  line-height: 100px;
 }
 
-ul {
+.nav ul {
   padding: 0;
-  margin: 0;
-  float: right;
+  margin: 0 !important;;
 }
 
-li {
+.nav li {
   list-style: none;
   float: left;
+  padding: 0 10px;
+}
+
+.nav a {
+  color: #fff;
+}
+
+
+
+.ant-anchor-link-title {
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
 }
 
 #lav_logo {
   cursor: default;
-  padding: 0 20px;
 }
 
-.navLink {
-  padding: 0 20px;
-  cursor: pointer;
+
+.color {
+  color: #fff;
 }

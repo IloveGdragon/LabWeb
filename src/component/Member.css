@@ -1,0 +1,61 @@
+.ant-tabs {
+  width: 70%;
+  margin: 0 15% !important;
+}
+
+.ant-tabs-bar {
+  margin-bottom: 0!important;
+}
+
+.ant-tabs-tab {
+  font-size: 1.5em;
+}
+
+.ant-row-flex {
+  width: 100%;
+}
+
+.Teacher_main {
+  display: flex;
+  flex-direction: row;
+  padding: 70px 20px;
+}
+
+.Teacher_main h2{
+
+}
+
+.Teacher_left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Teacher_right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Teacher_right p {
+  font-size: 1.2em;
+}
+
+.Person_img {
+  margin: 15px;
+}
+
+.Member_name {
+  font-size: 25px;
+  text-align: center;
+  font-weight: bold; 
+  margin-bottom: 10px;
+}
+
+.Teacher_title {
+  font-size: 17px;
+  text-align: center;
+}
+
+.Teacher_con {
+  text-indent: 2em;
+}

@@ -5,6 +5,9 @@ import Director from './Director.js';
 import Member from './Member.js';
 import Works from './Works.js';
 import Contact from './Contact.js';
+import { BackTop } from 'antd';
+import './App.css';
+import 'antd/dist/antd.css'
 
 class App extends React.Component {
   constructor(){
@@ -22,7 +25,10 @@ class App extends React.Component {
         <Director winHeight = {this.state.height} />
         <Member winHeight = {this.state.height} />
         <Works winHeight = {this.state.height} />
-        <Contact winHeight = {this.state.height} />
+        <Contact />
+        <BackTop>
+          <div className="ant-back-top-inner">UP</div>
+        </BackTop>
       </div>
     )
   }

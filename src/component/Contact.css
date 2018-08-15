@@ -1,0 +1,18 @@
+.Contact_Con {
+  margin: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  height: 300px;
+}
+
+.Contact_Sub_Con {
+  margin: 35px 0;
+}
+
+.Contact_Sub_Con p {
+  margin: 0;
+  line-height: 30px;
+  font-size: 18px;
+  color: #202020;
+}

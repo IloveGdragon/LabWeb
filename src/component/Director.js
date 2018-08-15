@@ -1,18 +1,17 @@
 import React from 'react';
+import SubTitle from './SubTitle';
 import './Director.css';
+import ExpansionPanel from './ExpansionPanel';
 
 class Director extends React.Component {
-  constructor(props){
-    super(props);
-
-  }
 
   render(){
     return (
-      <section style={{height: this.props.winHeight}}>
-        其实我也不知道在做什么啦
+      <section id="Director" style={{minHeight: "800px"}}>
+        <SubTitle subTit="What Are We Doing"/>
+        <ExpansionPanel />
       </section>
-    )
+      )
   }
 
 }
