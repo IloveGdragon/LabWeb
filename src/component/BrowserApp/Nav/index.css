@@ -1,0 +1,56 @@
+.nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 25px 100px ;
+  border-bottom: 1px solid #00f0ef;
+  background: #153b46;
+  width: 100%;
+  font-size: 27px;
+  color: #000;
+  z-index: 999;
+  height: 75px;
+  line-height: 75px;
+}
+
+.nav div {
+  height: 75px;
+  line-height: 75px;
+  max-width: 380px;
+  overflow: hidden;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0 !important;;
+}
+
+.nav li {
+  list-style: none;
+  float: left;
+  padding: 0 10px;
+}
+
+.nav span {
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+.ant-anchor-link-title {
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
+}
+
+#lav_logo {
+  cursor: default;
+}
+
+
+.color {
+  color: #fff;
+}

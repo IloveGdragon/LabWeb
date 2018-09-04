@@ -1,0 +1,20 @@
+.dir_tit {
+  padding: 7% 0 50px 0;
+  text-align: center;
+}
+
+.dir_tit h2 {
+  margin: 0;
+  color: #000;
+  height: 70px;
+  line-height: 70px;
+  font-size: 45px;
+  font-family: 'Jua', sans-serif;
+  font-weight: 700;
+}
+
+.dir_tit h2 span {
+  display: inline-block;
+  height: 100%;
+  border-bottom: 2px solid #fdd489;
+}
